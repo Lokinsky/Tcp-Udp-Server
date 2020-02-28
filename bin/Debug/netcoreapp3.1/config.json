@@ -1,0 +1,8 @@
+{
+  "IP": "192.168.1.103",
+  "PORT": "55655",
+  "ADDRESSFAMILY": 2,
+  "PROTOCOLTYPE": 6,
+  "SOCKETTYPE": 1 ,
+  "buffer": 128
+}

@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp3
+{
+    interface IConnection
+    {
+        void BeginReceive();
+        void EndReceive(IAsyncResult ar);
+        byte[] SendReceive(StateObject sObject);
+        void EndSend(IAsyncResult ar);
+        void CloseConnection();
+    }
+}
